@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Button styles -->
+    <style name="ButtonStyle" parent="BaseButtonStyle">
+        <item name="android:backgroundTint">@color/ascent_color</item>
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:layout_gravity">bottom|end</item>
+    </style>
+
+    <style name="DriveButtonStyle" parent="ButtonStyle">
+        <item name="android:backgroundTint">@android:color/white</item>
+        <item name="android:textColor">@color/ascent_color</item>
+    </style>
+</resources>
